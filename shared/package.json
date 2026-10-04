@@ -1,0 +1,8 @@
+{
+  "name": "@irctc/shared",
+  "version": "1.0.0",
+  "description": "Shared constants and utilities for IRCTC Microservices system",
+  "main": "index.js",
+  "author": "Sahil Kookna",
+  "license": "MIT"
+}
