@@ -1,0 +1,27 @@
+{
+  "name": "irctc-backend",
+  "version": "1.0.0",
+  "description": "Enterprise IRCTC Microservices Architecture & Web System by Sahil Kookna",
+  "author": "Sahil Kookna <https://github.com/SahilKookna>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SahilKookna/irctc-backend.git"
+  },
+  "scripts": {
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "workspaces": [
+    "shared",
+    "api-gateway",
+    "user-service",
+    "admin-service",
+    "search-service",
+    "booking-service",
+    "inventory-service",
+    "payment-service",
+    "notification-service",
+    "frontend"
+  ]
+}
